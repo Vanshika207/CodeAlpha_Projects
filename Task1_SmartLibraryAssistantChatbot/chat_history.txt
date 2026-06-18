@@ -1,0 +1,145 @@
+
+[2026-06-16 15:52:50]
+User: hello
+Bot: Hi there! Ask me about library timings, renewals, cards, fines, or reservations.
+------------------------------------------------------------
+[2026-06-16 15:52:50]
+User: How many books can I issue?
+Bot: Students can issue up to 5 books at a time. Faculty members can issue up to 10 books.
+------------------------------------------------------------
+[2026-06-16 15:52:50]
+User: Can I reserve a book online?
+Bot: Yes. Log in to the library portal, search for the book, and click Reserve if the option is available.
+------------------------------------------------------------
+[2026-06-16 15:52:51]
+User: Do you repair bicycles in the library?
+Bot: The library is open Monday to Saturday from 8:00 AM to 8:00 PM and Sunday from 10:00 AM to 4:00 PM.
+------------------------------------------------------------
+[2026-06-16 15:52:51]
+User: thanks
+Bot: You're welcome. Happy reading!
+------------------------------------------------------------
+[2026-06-16 15:52:51]
+User: bye
+Bot: Thank you for using Smart Library Assistant. Have a great day!
+------------------------------------------------------------
+[2026-06-16 15:54:59]
+User: hello
+Bot: Hi there! Ask me about library timings, renewals, cards, fines, or reservations.
+------------------------------------------------------------
+[2026-06-16 15:54:59]
+User: How many books can I issue?
+Bot: Students can issue up to 5 books at a time. Faculty members can issue up to 10 books.
+------------------------------------------------------------
+[2026-06-16 15:54:59]
+User: Can I reserve a book online?
+Bot: Yes. Log in to the library portal, search for the book, and click Reserve if the option is available.
+------------------------------------------------------------
+[2026-06-16 15:54:59]
+User: Do you repair bicycles in the library?
+Bot: Sorry, I could not find a relevant answer. Please contact the librarian for further assistance.
+------------------------------------------------------------
+[2026-06-16 15:54:59]
+User: thanks
+Bot: You're welcome. Happy reading!
+------------------------------------------------------------
+[2026-06-16 15:54:59]
+User: bye
+Bot: Thank you for using Smart Library Assistant. Have a great day!
+------------------------------------------------------------
+[2026-06-16 15:55:41]
+User: hello
+Bot: Welcome to the Smart Library Assistant. What library question can I answer?
+------------------------------------------------------------
+[2026-06-16 15:55:59]
+User: What are library timings?
+Bot: The library is open Monday to Saturday from 8:00 AM to 8:00 PM and Sunday from 10:00 AM to 4:00 PM.
+------------------------------------------------------------
+[2026-06-16 15:56:14]
+User: How do I search for books?
+Bot: Use the online catalog by entering the title, author, subject, ISBN, or keywords related to the book.
+------------------------------------------------------------
+[2026-06-16 15:58:06]
+User: hiiii
+Bot: Sorry, I could not find a relevant answer. Please contact the librarian for further assistance.
+------------------------------------------------------------
+[2026-06-16 15:58:22]
+User: What are library timings?
+Bot: The library is open Monday to Saturday from 8:00 AM to 8:00 PM and Sunday from 10:00 AM to 4:00 PM.
+------------------------------------------------------------
+[2026-06-16 15:58:34]
+User: hello
+Bot: Welcome to the Smart Library Assistant. What library question can I answer?
+------------------------------------------------------------
+[2026-06-16 15:58:37]
+User: How do I renew a book?
+Bot: You can renew a book from your library account online or by visiting the circulation desk before the due date.
+------------------------------------------------------------
+[2026-06-16 15:58:42]
+User: How can I obtain a library card?
+Bot: Submit your student or staff ID at the library help desk and complete the membership form to receive a library card.
+------------------------------------------------------------
+[2026-06-16 16:15:29]
+User: What is the fine for late return?
+Bot: The late return fine is 2 rupees per book per day after the due date.
+------------------------------------------------------------
+[2026-06-16 16:17:35]
+User: hii
+Bot: Sorry, I could not find a relevant answer. Please contact the librarian for further assistance.
+------------------------------------------------------------
+[2026-06-16 16:17:50]
+User: hello
+Bot: Welcome to the Smart Library Assistant. What library question can I answer?
+------------------------------------------------------------
+[2026-06-16 16:39:38]
+User: hello
+Bot: Welcome to the Smart Library Assistant. What library question can I answer?
+------------------------------------------------------------
+[2026-06-16 16:44:37]
+User: hello
+Bot: Welcome to the Smart Library Assistant. What library question can I answer?
+------------------------------------------------------------
+[2026-06-16 16:47:25]
+User: hello
+Bot: Welcome to the Smart Library Assistant. What library question can I answer?
+------------------------------------------------------------
+[2026-06-17 20:35:09]
+User: What are library timings?
+Bot: The library is open Monday to Saturday from 8:00 AM to 8:00 PM and Sunday from 10:00 AM to 4:00 PM.
+------------------------------------------------------------
+[2026-06-17 20:35:27]
+User: Is food allowed inside the library?
+Bot: Food is not allowed inside reading areas. Covered water bottles are usually permitted.
+------------------------------------------------------------
+[2026-06-17 20:35:34]
+User: What happens if a book is lost?
+Bot: Report the lost book immediately. You may need to replace the book or pay its current cost plus processing charges.
+------------------------------------------------------------
+[2026-06-17 20:35:38]
+User: What is the fine for late return?
+Bot: The late return fine is 2 rupees per book per day after the due date.
+------------------------------------------------------------
+[2026-06-17 20:35:42]
+User: How many books can I issue?
+Bot: Students can issue up to 5 books at a time. Faculty members can issue up to 10 books.
+------------------------------------------------------------
+[2026-06-17 21:00:22]
+User: hello
+Bot: Hello! I am Libby, your Smart Library Assistant. How can I help you today?
+------------------------------------------------------------
+[2026-06-17 21:00:29]
+User: What are library timings?
+Bot: The library is open Monday to Saturday from 8:00 AM to 8:00 PM and Sunday from 10:00 AM to 4:00 PM.
+------------------------------------------------------------
+[2026-06-17 21:00:39]
+User: What is the fine for late return?
+Bot: The late return fine is 2 rupees per book per day after the due date.
+------------------------------------------------------------
+[2026-06-17 21:00:45]
+User: How many books can I issue?
+Bot: Students can issue up to 5 books at a time. Faculty members can issue up to 10 books.
+------------------------------------------------------------
+[2026-06-17 21:01:04]
+User: How do I access online journals?
+Bot: Online journals are available through the e-resources page on the library portal using campus login.
+------------------------------------------------------------
