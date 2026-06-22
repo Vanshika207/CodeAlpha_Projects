@@ -193,13 +193,18 @@ class RequestHandler(BaseHTTPRequestHandler):
     def log_message(self, format, *args):
         return
 
+import os
 
-def run(host="127.0.0.1", port=8000):
+def run(host="0.0.0.0", port=None):
+    # Render automatically sets the PORT environment variable
+    if port is None:
+        port = int(os.environ.get("PORT", 8000))
+        
     server = ThreadingHTTPServer((host, port), RequestHandler)
     print(f"AI Smart Language Translator is running at http://{host}:{port}")
     print("Press Ctrl+C to stop the server.")
     server.serve_forever()
 
-
 if __name__ == "__main__":
     run()
+
