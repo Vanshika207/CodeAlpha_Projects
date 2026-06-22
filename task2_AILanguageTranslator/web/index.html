@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Translator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <i class="fas fa-book-sparkles"></i>
+                <span>AI Translator</span>
+            </div>
+            <div class="nav-items">
+                <button class="nav-btn active" onclick="showSection('dashboard')">
+                    <i class="fas fa-chart-line"></i> Dashboard
+                </button>
+                <button class="nav-btn" onclick="showSection('translator')">
+                    <i class="fas fa-language"></i> Translator
+                </button>
+                <button class="nav-btn" onclick="showSection('history')">
+                    <i class="fas fa-history"></i> History
+                </button>
+                <button class="nav-btn" onclick="toggleTheme()">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-container">
+        <!-- Dashboard Section -->
+        <section id="dashboard" class="section active">
+            <div class="dashboard-header">
+                <div class="header-content">
+                    <h1>Welcome to AI Translator</h1>
+                    <p>Your intelligent AI-powered language translation platform</p>
+                </div>
+                <div class="header-illustration">
+                    <div class="floating-icon">
+                        <i class="fas fa-book"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Statistics Cards -->
+            <div class="stats-grid">
+                <div class="stat-card stat-card-1">
+                    <div class="stat-icon">
+                        <i class="fas fa-language"></i>
+                    </div>
+                    <div class="stat-content">
+                        <h3 id="totalTranslations">0</h3>
+                        <p>Translations Done</p>
+                    </div>
+                    <div class="stat-bg-shape"></div>
+                </div>
+
+                <div class="stat-card stat-card-2">
+                    <div class="stat-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <div class="stat-content">
+                        <h3>50+</h3>
+                        <p>Languages Supported</p>
+                    </div>
+                    <div class="stat-bg-shape"></div>
+                </div>
+
+                <div class="stat-card stat-card-3">
+                    <div class="stat-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <div class="stat-content">
+                        <h3>Instant</h3>
+                        <p>Real-time Translation</p>
+                    </div>
+                    <div class="stat-bg-shape"></div>
+                </div>
+
+                <div class="stat-card stat-card-4">
+                    <div class="stat-icon">
+                        <i class="fas fa-microphone"></i>
+                    </div>
+                    <div class="stat-content">
+                        <h3>Voice</h3>
+                        <p>Audio Support</p>
+                    </div>
+                    <div class="stat-bg-shape"></div>
+                </div>
+            </div>
+
+            <!-- Features Section -->
+            <div class="features-section">
+                <h2>Powerful Features</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon feature-icon-1">
+                            <i class="fas fa-wand-magic-sparkles"></i>
+                        </div>
+                        <h3>AI-Powered Translation</h3>
+                        <p>Advanced machine learning algorithms for accurate, context-aware translations across 50+
+                            languages.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon feature-icon-2">
+                            <i class="fas fa-microphone-lines"></i>
+                        </div>
+                        <h3>Voice Recognition</h3>
+                        <p>Speak naturally and let our AI convert your voice to text in any language instantly.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon feature-icon-3">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <h3>Smart Storage</h3>
+                        <p>All your translations are automatically saved and organized for easy access later.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon feature-icon-4">
+                            <i class="fas fa-file-export"></i>
+                        </div>
+                        <h3>Export Options</h3>
+                        <p>Download translations in multiple formats (PDF, DOC, TXT) for sharing and archiving.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon feature-icon-5">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                        <h3>Secure & Private</h3>
+                        <p>Your data is encrypted and stored securely with no third-party access or tracking.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon feature-icon-6">
+                            <i class="fas fa-zap"></i>
+                        </div>
+                        <h3>Lightning Fast</h3>
+                        <p>Get results in milliseconds with our optimized translation engine and servers.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Quick Start Section -->
+            <div class="quick-start">
+                <div class="quick-start-content">
+                    <h2>Get Started in Seconds</h2>
+                    <p>Begin translating right now with just a few clicks</p>
+                    <button class="cta-button" onclick="showSection('translator')">
+                        Start Translating
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+                <div class="quick-start-image">
+                    <div class="animated-shapes">
+                        <div class="shape shape-1"></div>
+                        <div class="shape shape-2"></div>
+                        <div class="shape shape-3"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Translator Section -->
+        <section id="translator" class="section">
+            <div class="translator-container">
+                <div class="translator-header">
+                    <h1>AI Translator</h1>
+                    <p>Translate text between any languages instantly</p>
+                </div>
+
+                <div class="translator-box">
+                    <div class="language-selector">
+                        <div class="language-group">
+                            <label>From Language</label>
+                            <div class="language-input-group">
+                                <select id="sourceLanguage" class="language-select">
+                                    <option value="Auto Detect">Auto Detect</option>
+                                </select>
+                                <button class="voice-btn" onclick="startVoiceInput()" title="Speak to translate">
+                                    <i class="fas fa-microphone"></i>
+                                </button>
+                            </div>
+                        </div>
+
+                        <button class="swap-btn" onclick="swapLanguages()" title="Swap languages">
+                            <i class="fas fa-arrows-left-right"></i>
+                        </button>
+
+                        <div class="language-group">
+                            <label>To Language</label>
+                            <select id="targetLanguage" class="language-select">
+                                <option value="English">English</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="translator-content">
+                        <div class="text-input-area">
+                            <textarea id="sourceText" class="text-area" placeholder="Enter text to translate..."
+                                oninput="handleTranslationInput()"></textarea>
+                            <div class="char-count">
+                                <span id="charCount">0</span>/5000
+                            </div>
+                        </div>
+
+                        <button class="translate-btn" onclick="performTranslation()">
+                            <span class="btn-text">Translate</span>
+                            <span class="btn-icon"><i class="fas fa-arrow-right"></i></span>
+                        </button>
+
+                        <div class="text-output-area">
+                            <div class="output-header">
+                                <span>Translation</span>
+                                <div class="output-actions" style="display: flex; gap: 0.75rem; align-items: center;">
+                                    <button class="copy-btn" onclick="speakTranslation()" title="Listen to translation">
+                                        <i class="fas fa-volume-up"></i>
+                                    </button>
+                                    <button class="copy-btn" onclick="copyTranslation()" title="Copy to clipboard">
+                                        <i class="fas fa-copy"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <textarea id="translationResult" class="text-area output"
+                                readonly>Your translation will appear here...</textarea>
+                        </div>
+                    </div>
+
+                    <div class="translator-actions">
+                        <button class="action-btn" onclick="clearTranslator()">
+                            <i class="fas fa-trash"></i> Clear
+                        </button>
+                        <button class="action-btn" onclick="downloadTranslation()">
+                            <i class="fas fa-download"></i> Download
+                        </button>
+                        <button class="action-btn" onclick="shareTranslation()">
+                            <i class="fas fa-share"></i> Share
+                        </button>
+                    </div>
+
+                    <div id="loadingSpinner" class="loading-spinner" style="display: none;">
+                        <div class="spinner"></div>
+                        <p>Translating...</p>
+                    </div>
+
+                    <div id="errorMessage" class="error-message" style="display: none;"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- History Section -->
+        <section id="history" class="section">
+            <div class="history-container">
+                <div class="history-header">
+                    <h1>Translation History</h1>
+                    <p>View and manage your previous translations</p>
+                    <button class="clear-history-btn" onclick="clearHistory()">
+                        <i class="fas fa-trash"></i> Clear All
+                    </button>
+                </div>
+
+                <div class="history-filters">
+                    <input type="text" id="searchHistory" class="search-input" placeholder="Search translations..."
+                        oninput="filterHistory()">
+                </div>
+
+                <div id="historyList" class="history-list">
+                    <div class="empty-state">
+                        <i class="fas fa-inbox"></i>
+                        <p>No translations yet. Start translating to build your history!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 AI Translator. Made with <i class="fas fa-heart"></i> for faster translation.</p>
+            <div class="footer-links">
+                <a href="#privacy">Privacy</a>
+                <a href="#terms">Terms</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
